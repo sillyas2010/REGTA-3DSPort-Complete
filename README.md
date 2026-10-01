@@ -20,6 +20,13 @@ REGTA brings three classic Grand Theft Auto games to New Nintendo 3DS:
 Trailer：https://youtu.be/fBzzLx0BX5M
 https://youtu.be/M6l40wRYKgA
 
+> [!IMPORTANT]
+> **Fork notice:** this repository
+> ([`sillyas2010/REGTA-3DSPort-Complete`](https://github.com/sillyas2010/REGTA-3DSPort-Complete))
+> is a fork of
+> [`Epic0522/REGTA-3DSPort-Complete`](https://github.com/Epic0522/REGTA-3DSPort-Complete).
+> Issues, pull requests and documentation changes belong in the fork.
+
 Build any of the three games from this repository. Each has a full lower-screen
 interface, touch controls, Nintendo button prompts and a cheat-code keyboard.
 
@@ -437,6 +444,9 @@ cd REGTA-3DSPort-Complete
 ./scripts/verify-layout.sh
 ./scripts/build.sh all
 ```
+
+Clone this fork instead if you want its additional docs and fixes:
+`git clone https://github.com/sillyas2010/REGTA-3DSPort-Complete.git`.
 
 The build checks the compiler version, not a private developer directory;
 your SDK does not need to live inside this repository. Git preserves the shared
